@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+body {
+	background-color: #0f3057;
+}
+
+.header {
+	background-color: #00587a;
+	padding: 10px;
+	text-align: center;
+}
+
+.article1 {
+	background-color: #00587a;
+	padding: 10px;
+	color:#e7e7de;
+  border-radius: 7px;
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover {
+  color: #e7e7de;
+}
+
+p {
+	font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+
+.end {
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  font-size: 12px;
+}
+
+.img1 {
+  width: auto;
+  height: auto;
+  padding-left: 34vw;
+}
+
+.img2 {
+  width: auto;
+  height: auto;
+  padding-left: 35vw;
+}
+
+.img3 {
+  width: 200px;
+  height: auto;
+}
+
+.img4 {
+  width: auto;
+  height: auto;
+  padding-left: 33vw;
+}
+
+.img5 {
+  width: 200px;
+  height: auto;
+  padding-left: 33vw;
+}
+
+.img6 {
+  width: 300px;
+  height: auto;
+}
+
+.img7 {
+  width: auto;
+  height: auto;
+  padding-left: 20vw;
+}
+
+figcaption {
+  text-align: center;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+.paragraphs {
+  font-family: 'Bree Serif', serif;
+  text-align: left;
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-bottom: 2vw;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+
+.gif_class{
+	background-color: black;
+}
+
+#gif{
+	width: 100%;
+	height: auto;
+  border-radius: 7px;
+}
+
+#caption {
+  font-size: 12px;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #e7e7de #00587a;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #008891;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #e7e7de;
+    border-radius: 10px;
+    border: 3px double #e7e7de;
+  }
+
+button {
+  background-color:#003f57;
+  color:white;
+  border-radius: 5px;
+  border-color: ;
+  margin-left: -0.11vw;
+  font-family: 'Righteous', cursive;
+  text-align:center;
+}
+
+.headerP {
+  text-align: right;
+  padding:10px;
+  padding-left: 73vw;
+  padding-bottom: 10px;
+  color: #e7e7de;
+  margin-bottom: -10px;
+  display: inline-flex;
+}
+
+.footer {
+  background-color: #008891;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  margin-top: 1vw;
+  margin-left: -0.3vw;
+  margin-bottom: -1vw;
+  padding: 2px 7px;
+  text-align: center;
+  color: #e7e7de;
+  font-family: 'Righteous', cursive;
+}
+
+  /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #008891;
+  margin-left: -0.5vw;
+  margin-right: -0.4vw;
+  margin-top: -0.3vw;
+  border-radius: 7px 7px;
+  border-color: black;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #e7e7de;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+
+#navbar a:hover {
+  color: goldenrod; 
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
